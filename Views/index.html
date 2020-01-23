@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+</head>
+<body>
+    
+    <div>
+        <input id="txtUserName" type="text" placeholder="Enter the userName">
+        <br/>
+        <br/>
+        <input id="txtPassword" type="password" placeholder="Enter the Password">
+        <br/>
+        <br/>
+        <button id="btnSubmit" onclick="onSubmitButtonClickEvent()">Submit</button>
+        <br/>
+        <br/>
+        <span id="validationUser" style="color: red;"></span>
+
+    </div>
+
+</body>
+<script src="../lib/jquery/jquery-3.4.1.min.js"></script>
+<script src="../Models/userModel.js"></script>
+<script src="../Respositorys/userRespository.js"></script>
+<script src="../Contexts/userContext.js"></script>
+<script src="../Controllers/usersController.js"></script>
+</html>
